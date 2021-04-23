@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+	
+<head>
+	
+<style>
+		
+	body
+		{
+		background-color: cyan;
+			
+		}
+		
+		h2
+			{
+			color: black;
+			text-align: center
+						
+			}
+	
+	#Burn {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+		
+}
+	
+</style>
+	
+	
+<meta charset="utf-8">
+	
+	
+<title>Untitled Document</title>
+</head>
+	
+
+	
+	
+	
+	
+	
+<body>
+	
+	
+<h2>Goodmorning Java!</h2>
+
+<button type="button"
+onclick="document.getElementById('Burn').innerHTML = Date()">
+	
+May I ask what time it is, my good sir?</button>
+
+<button type="button" onclick=""document.getElementById("demo").innerHTML = "it is a pretty nice day today">The weather?</button>
+	
+<button type="button" onclick=""document.getElementById("demo").innerHTML = "be the best that you can be">Any advice?</button>
+
+<button type="button" onclick=""document.getElementById("demo").innerHTML = "you are welcome. Enjoy your stay">Thank you!</button>	
+
+	
+	
+<p id="demo">Ok, let's try something new really quick! </p>																					 
+
+
+	
+	
+	
+<p>Type in somethin special for me pretty please.</p>
+
+<input type="text" id="myText" value="Enter anything nice...">
+
+<button onclick="myFunction()">Enter</button>
+
+<p id="cool"></p>
+
+<script>
+	
+	
+function myFunction()
+	{
+  var x = document.getElementById("myText").value;
+  document.getElementById("cool").innerHTML = x;
+		
+	}
+	
+</script>
+	
+	<p>Now let's try something else!</p>
+
+<button onclick="Specialme()">Click me for a surprise!</button>
+
+<script>
+function Specialme() {
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "text");
+  x.setAttribute("value", "he-hey  that tickles!!");
+  document.body.appendChild(x);
+}
+</script>
+
+	
+	
+	
+</body>
+	
+	<p> That was wonderful! thank you for the quick practice Java!!</p>
+	
+	
+</html>
